@@ -13,6 +13,25 @@ During the first request the client sends a POST request with username and passw
 
 JWT has the following format -header.payload.signature.
 
+## How to get token by Postman
+
+Url: http://localhost:8080/authenticate
+Method: POST
+{
+    "username":"javainuse",
+    "password":"password"
+}
+
+## How to Access any endpoint
+
+URL:http://localhost:8080/user
+Method:Get
+At header add Authorization key 
+Authorization : token
+
+
+ 
+
 
  
 
